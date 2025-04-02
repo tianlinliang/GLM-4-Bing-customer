@@ -15,3 +15,6 @@ void init_gpio(uint8_t pin, uint8_t mode);
 //   - pin: The pin number (0-31)
 //   - mode: 0 for input, 1 for output
 // Returns: None
+Example:
+init_gpio(5, 1); // Initialize pin 5 as output
+
